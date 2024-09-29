@@ -1,0 +1,24 @@
+import './bootstrap';
+import './main';
+import './swiper.min';
+import '../css/block-main.css';
+import '../css/variables.css';
+import '../css/two.css';
+import '../css/three.css';
+import '../css/swiper.min.css';
+import '../css/style.css';
+import '../css/stut.css';
+import '../css/six.css';
+import '../css/seven.css';
+import '../css/reset.css';
+import '../css/mymodal.css';
+import '../css/header.css';
+import '../css/four.css';
+import '../css/footer.css';
+import '../css/five.css';
+import '../css/end.css';
+import '../css/courses.css';
+import '../css/block-main.css';
+import '../css/block-main-bottom.css';
+import '../css/opening.css';
+

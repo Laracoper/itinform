@@ -1,0 +1,80 @@
+.four {
+    padding: 0 0 200px 0;
+}
+
+.four__container {}
+
+.four__title {
+    text-align: center;
+    margin: 0 0 120px 0;
+}
+
+.four__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.four__card {
+    flex: 1 1 33.3%;
+    text-align: center;
+    padding: 0 3px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.four__img {
+    margin: 0 0 60px 0;
+}
+
+.four__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 0 30px 0;
+    flex: 1 0 auto;
+}
+
+.four__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+@media (max-width: 991.98px) {
+    .four {
+        padding: 0 0 140px 0;
+    }
+    .four__title {
+        text-align: center;
+        margin: 0 0 90px 0;
+    }
+}
+
+@media (max-width: 620.98px) {
+    .four {
+        padding: 0 0 100px 0;
+    }
+    .four__card {
+        flex: 1 1 100%;
+        margin: 0 0 60px 0;
+    }
+
+    .four__card:last-child {
+        flex: 1 1 100%;
+        margin: 0;
+    }
+
+    .four__title {
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+
+    .four__img {
+        margin: 0 0 20px 0;
+    }
+
+    .four__subtitle {
+        margin: 0 0 20px 0;
+    }
+}
